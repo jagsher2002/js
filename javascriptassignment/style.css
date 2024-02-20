@@ -1,0 +1,106 @@
+/* Setting background color for the body */
+#background {
+    background-color: beige;
+}
+
+/* Styling the main container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center; /* Center aligning the content */
+}
+
+/* Styling the header */
+#header {
+    text-align: center; /* Center aligning the header */
+}
+
+/* Styling the table */
+.table {
+    display: flex; /* Using flexbox for layout */
+    flex-direction: column; /* Columns layout */
+    align-items: center; /* Centering items horizontally */
+}
+
+/* Styling the row */
+.row {
+    display: flex; /* Using flexbox for layout */
+}
+
+/* Styling the cell */
+.cell {
+    margin: 10px; /* Setting margin */
+    padding: 10px; /* Setting padding */
+    border: 1px solid red; /* Adding border */
+    border-radius: 5px; /* Adding border radius */
+    background-color: #f9f9f9; /* Setting background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+}
+
+/* Styling buttons */
+#button1 {
+    background-color: #005f6b; /* Setting background color */
+}
+
+#button2 {
+    background-color: #008CBA; /* Setting background color */
+}
+
+#button3 {
+    background-color: aqua; /* Setting background color */
+}
+
+#button4 {
+    background-color: aquamarine; /* Setting background color */
+}
+
+#button5 {
+    background-color: #555; /* Setting background color */
+}
+
+/* Styling generic buttons */
+.button {
+    padding: 8px 16px; /* Setting padding */
+    border: none; /* Removing border */
+    border-radius: 5px; /* Adding border radius */
+    background-color: #4CAF50; /* Setting background color */
+    color: white; /* Setting text color */
+    font-size: 16px; /* Setting font size */
+    cursor: pointer; /* Setting cursor */
+    transition: background-color 0.3s; /* Adding transition */
+}
+
+/* Hover effect for generic buttons */
+.button:hover {
+    background-color: #45a049; /* Changing background color on hover */
+}
+
+/* Styling content */
+.content {
+    margin-top: 10px; /* Setting top margin */
+    display: inline-block; /* Displaying as inline block */
+    font-size: 14px; /* Setting font size */
+    color: #555; /* Setting text color */
+}
+
+/* Styling action buttons */
+.actions {
+    margin-top: 20px; /* Setting top margin */
+}
+
+.actions button {
+    margin: 0 10px; /* Setting margin */
+    padding: 8px 16px; /* Setting padding */
+    border: none; /* Removing border */
+    border-radius: 5px; /* Adding border radius */
+    background-color: #008CBA; /* Setting background color */
+    color: white; /* Setting text color */
+    font-size: 16px; /* Setting font size */
+    cursor: pointer; /* Setting cursor */
+    transition: background-color 0.3s; /* Adding transition */
+}
+
+/* Hover effect for action buttons */
+.actions button:hover {
+    background-color: #005f6b; /* Changing background color on hover */
+}
